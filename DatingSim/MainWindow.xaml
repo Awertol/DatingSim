@@ -1,0 +1,22 @@
+﻿<Window x:Class="DatingSim.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatingSim"
+        mc:Ignorable="d"
+        Title="M&amp;M Dating Sim &lt;3" Height="1000" Width="1800" MaxWidth="1920" MaxHeight="1080" 
+        MinWidth="1280" MinHeight="720" Background="Pink">
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".85*"/>
+            <RowDefinition Height=".15*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <MediaElement x:Name="prehravacUvodu" Source="obrazky/videko.mp4" Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="2" LoadedBehavior="Play" MediaEnded="prehravacUvodu_MediaEnded" MouseLeftButtonDown="prehravacUvodu_MouseLeftButtonDown"/>
+        <Label x:Name="lbOtazka" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" Visibility="Hidden" Content="" FontSize="60" Foreground="DeepPink" FontWeight="Bold" Background="#7FC3C3C3" />
+    </Grid>
+</Window>
