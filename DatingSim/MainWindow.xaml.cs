@@ -47,12 +47,16 @@ namespace DatingSim
             if(x > this.Width/2)
             {
                 MessageBox.Show("Michal");
+                VyberyUz.MacekMichal = "B";
             }
             else
             {
                 MessageBox.Show("Macek");
+                VyberyUz.MacekMichal = "A";
             }
-            Sceny.NactiText("soubory/veccc.txt");
+            GameWindow oknoHra = new GameWindow();
+            oknoHra.ShowDialog();
+            this.Close();
         }
     }
 }

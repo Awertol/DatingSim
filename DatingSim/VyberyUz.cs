@@ -8,7 +8,8 @@ namespace DatingSim
 {
     public static class VyberyUz
     {
-        public static int MacekMichal = -1;
+        public static string MacekMichal = "C";
         public static int Prizen = 0;
+        public static int Scena = 0;
     }
 }

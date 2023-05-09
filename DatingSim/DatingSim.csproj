@@ -14,6 +14,21 @@
     <None Remove="obrazky\videko.mp4" />
     <None Remove="soubory\kurz.cur" />
     <None Remove="soubory\veccc.txt" />
+    <None Remove="videa\1SA.mp4" />
+    <None Remove="videa\2SA.mp4" />
+    <None Remove="videa\2SB.mp4" />
+    <None Remove="videa\3SA.mp4" />
+    <None Remove="videa\3SB.mp4" />
+    <None Remove="videa\4SA.mp4" />
+    <None Remove="videa\4SB.mp4" />
+    <None Remove="videa\5SA.mp4" />
+    <None Remove="videa\5SB.mp4" />
+    <None Remove="videa\6SA.mp4" />
+    <None Remove="videa\6SB.mp4" />
+    <None Remove="videa\7SA.mp4" />
+    <None Remove="videa\7SB.mp4" />
+    <None Remove="videa\8SA.mp4" />
+    <None Remove="videa\8SB.mp4" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,6 +46,51 @@
     </Content>
     <Content Include="soubory\veccc.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\1SA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\2SA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\2SB.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\3SA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\3SB.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\4SA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\4SB.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\5SA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\5SB.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\6SA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\6SB.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\7SA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\7SB.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\8SA.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\8SB.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 
