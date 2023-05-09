@@ -22,13 +22,16 @@ namespace DatingSim
         public PreFinishWindow()
         {
             InitializeComponent();
+            this.WindowState = WindowState.Maximized;
+            this.Cursor = Kurzor.C1;
             prehravacVideo.Source = new Uri($"videa/8S{VyberyUz.MacekMichal}.mp4", UriKind.Relative);
             prehravacVideo.Play();
         }
 
         private void btnEnd_Click(object sender, RoutedEventArgs e)
         {
-            //pičo
+            FinishWindow finalOkno = new FinishWindow();
+            finalOkno.ShowDialog();
             this.Close();
         }
 

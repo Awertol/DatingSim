@@ -5,6 +5,7 @@
     <TargetFramework>net7.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>soubory\favicon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,8 +13,8 @@
     <None Remove="obrazky\srceBig.png" />
     <None Remove="obrazky\srceSmall.png" />
     <None Remove="obrazky\videko.mp4" />
+    <None Remove="soubory\favicon.ico" />
     <None Remove="soubory\kurz.cur" />
-    <None Remove="soubory\veccc.txt" />
     <None Remove="videa\1SA.mp4" />
     <None Remove="videa\2SA.mp4" />
     <None Remove="videa\2SB.mp4" />
@@ -44,9 +45,7 @@
     <Content Include="obrazky\videko.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="soubory\veccc.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Content Include="soubory\favicon.ico" />
     <Content Include="videa\1SA.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -95,6 +94,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="soubory\favicon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="soubory\kurz.cur">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
