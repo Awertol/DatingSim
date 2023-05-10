@@ -16,7 +16,7 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <MediaElement x:Name="prehravacUvodu" Source="videa/1SA.mp4" Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="2" LoadedBehavior="Play" MediaEnded="prehravacUvodu_MediaEnded" MouseLeftButtonDown="prehravacUvodu_MouseLeftButtonDown"/>
-        <Label x:Name="lbOtazka" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Visibility="Hidden" Content="" FontSize="60" Foreground="DeepPink" HorizontalContentAlignment="Center" FontWeight="Bold" Background="#7FC3C3C3" />
+        <MediaElement x:Name="prehravacUvodu" Source="videa/1S.mp4" Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="2" LoadedBehavior="Play" MediaEnded="prehravacUvodu_MediaEnded" MouseLeftButtonDown="prehravacUvodu_MouseLeftButtonDown"/>
+        <Label x:Name="lbOtazka" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Visibility="Hidden" Content="" FontSize="60" Foreground="DeepPink" HorizontalContentAlignment="Center" FontWeight="Bold" Background="#7FC3C3C3" FontFamily="Comic Sans MS"/>
     </Grid>
 </Window>

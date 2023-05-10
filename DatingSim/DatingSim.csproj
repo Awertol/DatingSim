@@ -15,7 +15,7 @@
     <None Remove="obrazky\videko.mp4" />
     <None Remove="soubory\favicon.ico" />
     <None Remove="soubory\kurz.cur" />
-    <None Remove="videa\1SA.mp4" />
+    <None Remove="videa\1S.mp4" />
     <None Remove="videa\2SA.mp4" />
     <None Remove="videa\2SB.mp4" />
     <None Remove="videa\3SA.mp4" />
@@ -30,6 +30,12 @@
     <None Remove="videa\7SB.mp4" />
     <None Remove="videa\8SA.mp4" />
     <None Remove="videa\8SB.mp4" />
+    <None Remove="videa\9SA1.mp4" />
+    <None Remove="videa\9SA2.mp4" />
+    <None Remove="videa\9SA3.mp4" />
+    <None Remove="videa\9SB1.mp4" />
+    <None Remove="videa\9SB2.mp4" />
+    <None Remove="videa\9SB3.mp4" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,7 +52,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="soubory\favicon.ico" />
-    <Content Include="videa\1SA.mp4">
+    <Content Include="videa\1S.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="videa\2SA.mp4">
@@ -89,6 +95,24 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="videa\8SB.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\9SA1.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\9SA2.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\9SA3.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\9SB1.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\9SB2.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videa\9SB3.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

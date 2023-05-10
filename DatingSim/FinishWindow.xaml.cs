@@ -26,27 +26,25 @@ namespace DatingSim
             this.Cursor = Kurzor.C1;
             if (VyberyUz.MacekMichal == "A")
             {
-                lbPrizen.Content = "Macek - přízeň";
-                prehravacVideo.Source = new Uri("videa/2SA.mp4", UriKind.Relative);
+                prehravacVideo.Source = new Uri("videa/8SA.mp4", UriKind.Relative);
             }
             else
             {
-                lbPrizen.Content = "Michal - přízeň";
-                prehravacVideo.Source = new Uri("videa/2SB.mp4", UriKind.Relative);
+                prehravacVideo.Source = new Uri("videa/8SB.mp4", UriKind.Relative);
             }
             if (VyberyUz.Prizen >= -20 && VyberyUz.Prizen < -6)
             {
-                //prehravacVideo.Source = 
+                prehravacVideo.Source = new Uri($"videa/9S{VyberyUz.MacekMichal}1.mp4", UriKind.Relative);
                 lbEnding.Content = "BAD ENDING";
             }
             else if(VyberyUz.Prizen >= -6 && VyberyUz.Prizen <= 6)
             {
-                //prehravacVideo.Source = 
+                prehravacVideo.Source = new Uri($"videa/9S{VyberyUz.MacekMichal}2.mp4", UriKind.Relative);
                 lbEnding.Content = "FRIEND ENDING";
             }
             else if(VyberyUz.Prizen > 6 && VyberyUz.Prizen <= 20)
             {
-                //prehravacVideo.Source = 
+                prehravacVideo.Source = new Uri($"videa/9S{VyberyUz.MacekMichal}3.mp4", UriKind.Relative);
                 lbEnding.Content = "ROMANTIC ENDING ♥️";
             }
             prizenBar.Value = Convert.ToDouble(VyberyUz.Prizen);
@@ -56,7 +54,6 @@ namespace DatingSim
         private void prehravacVideo_MediaEnded(object sender, RoutedEventArgs e)
         {
             btnEnd.Visibility = Visibility.Visible;
-            lbPrizen.Visibility = Visibility.Visible;
             lbEnding.Visibility = Visibility.Visible;
             prizenBar.Visibility = Visibility.Visible;
 
@@ -64,6 +61,7 @@ namespace DatingSim
 
         private void btnEnd_Click(object sender, RoutedEventArgs e)
         {
+            MessageBox.Show("M & M\n Ti děkují za zahrání!", "KONEC HRY");
             this.Close();
         }
     }

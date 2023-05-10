@@ -21,7 +21,7 @@ namespace DatingSim
     public partial class MainWindow : Window
     {
         public MainWindow()
-        {
+        {   
             LoadingWindow nacitaciOkno = new LoadingWindow();
             nacitaciOkno.ShowDialog();
             InitializeComponent();
@@ -46,13 +46,11 @@ namespace DatingSim
             y = Math.Truncate(y);
             if(x > this.Width/2)
             {
-                MessageBox.Show("Michal");
-                VyberyUz.MacekMichal = "B";
+                VyberyUz.MacekMichal = "A";
             }
             else
             {
-                MessageBox.Show("Macek");
-                VyberyUz.MacekMichal = "A";
+                VyberyUz.MacekMichal = "B";
             }
             GameWindow oknoHra = new GameWindow();
             oknoHra.ShowDialog();

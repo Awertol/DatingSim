@@ -9,15 +9,18 @@
         MinWidth="1280" MinHeight="720" Background="HotPink">
     <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
         <Grid.RowDefinitions>
-            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2.2*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <MediaElement x:Name="prehravacVideo" Grid.Row="0" Grid.RowSpan="2" LoadedBehavior="Manual" Volume="100" 
                        MediaEnded="prehravacVideo_MediaEnded"/>
-        <StackPanel x:Name="stackOdpovedi" Visibility="Hidden" Grid.Row="1" Panel.ZIndex="1" Background="#B2B3B3B3">
-            <Button x:Name="btnOdp1" Click="btnOdp1_Click" Foreground="DeepPink" FontSize="24"/>
-            <Button x:Name="btnOdp2" Click="btnOdp1_Click" Foreground="DeepPink" FontSize="24"/>
-            <Button x:Name="btnOdp3" Click="btnOdp1_Click" Foreground="DeepPink" FontSize="24"/>
+        <StackPanel x:Name="stackOdpovedi" Visibility="Hidden" Grid.Row="1" Panel.ZIndex="1" Background="#B2B3B3B3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+            <Button x:Name="btnOdp1" Click="btnOdp1_Click" Foreground="DeepPink" FontSize="24" Background="Pink" VerticalAlignment="Stretch" MinHeight="80"
+                    FontFamily="Comic Sans MS"/>
+            <Button x:Name="btnOdp2" Click="btnOdp1_Click" Foreground="DeepPink" FontSize="24" Background="Pink" VerticalAlignment="Stretch" MinHeight="80"
+                    FontFamily="Comic Sans MS"/>
+            <Button x:Name="btnOdp3" Click="btnOdp1_Click" Foreground="DeepPink" FontSize="24" Background="Pink" VerticalAlignment="Stretch" MinHeight="80"
+                    FontFamily="Comic Sans MS"/>
         </StackPanel>
     </Grid>
 </Window>

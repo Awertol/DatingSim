@@ -9,21 +9,20 @@
         MinWidth="1280" MinHeight="720" Background="HotPink">
     <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
         <Grid.RowDefinitions>
-            <RowDefinition Height="5*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
+            <RowDefinition Height="5.5*"/>
+            <RowDefinition Height="0.75*"/>
+            <RowDefinition Height="0.5*"/>
             <RowDefinition Height="1.5*"/>
         </Grid.RowDefinitions>
-        <MediaElement x:Name="prehravacVideo" Grid.Row="0" Grid.RowSpan="2" LoadedBehavior="Manual" Volume="100" 
+        <MediaElement x:Name="prehravacVideo" Grid.Row="0" Grid.RowSpan="1" LoadedBehavior="Manual" Volume="100" 
                        MediaEnded="prehravacVideo_MediaEnded"/>
-        <Label x:Name="lbPrizen" Grid.Row="1" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" Visibility="Hidden"
-               FontSize="60" Foreground="HotPink" FontWeight="Bold" Background="#7FC3C3C3"/>
-        <Label x:Name="lbEnding" Grid.Row="2" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" Visibility="Hidden"
+        <Label x:Name="lbEnding" Grid.Row="1" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" Visibility="Hidden" VerticalAlignment="Top"
                FontSize="60" Foreground="DeepPink" FontWeight="Bold" Background="White"/>
-        <ProgressBar x:Name="prizenBar" Grid.Row="3" HorizontalAlignment="Stretch" Visibility="Hidden" VerticalAlignment="Stretch" Margin="5"
-                Minimum="-19" Maximum="20" Background="Goldenrod" />
-        <Button x:Name="btnEnd" Grid.Row="4" HorizontalAlignment="Stretch" Visibility="Hidden" VerticalAlignment="Stretch" Margin="5"
+        <Border BorderBrush="Black" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <ProgressBar x:Name="prizenBar" Visibility="Hidden"  Margin="5"
+                Minimum="-19" Maximum="20" Foreground="DeepPink" Background="Goldenrod" />
+        </Border>
+        <Button x:Name="btnEnd" Grid.Row="3" HorizontalAlignment="Stretch" Visibility="Hidden" VerticalAlignment="Stretch" Margin="5"
                 Content="UKONČIT RANDE 💔" FontSize="72" Background="#99DC00C6" FontFamily="Comic Sans MS" FontWeight="Bold" Click="btnEnd_Click" />
     </Grid>
 </Window>
