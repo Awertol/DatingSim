@@ -27,7 +27,7 @@ namespace DatingSim
         {
             new Scena{ Cesta="2S", Odpovedi=
                 {
-                    { "Nejvíc se těším na multimedia, určitě budeme dělat nějakej project na konci a můžeme být spolu ve skupině! Třeba dating simulator!", new PostavaBody{ Postava=1, Body=3 } },
+                    { "Nejvíc se těším na grafiku, určitě budeme dělat nějakej projekt na konci a můžeme být spolu ve skupině!", new PostavaBody{ Postava=1, Body=3 } },
                     { "Já se těším hlavně na hardware, ten fakt miluju!", new PostavaBody{ Postava=1, Body=0 } },
                     { "Tak já hlavně miluju programování, takže hlavně na to, no…", new PostavaBody{ Postava=1, Body=-2 } },
                     { "Stejnej jako tvůj, prográmko, to se budeme moct učit spolu!", new PostavaBody{ Postava=2, Body=4 } },
@@ -50,7 +50,7 @@ namespace DatingSim
                     { "Tak to jsme s dvackou dva, taky se mi moc líbíš!", new PostavaBody{ Postava=1, Body=4 } },
                     { "Ty hlášky si příště kdyžtak nech pro sebe, ale můžeme sem zajít někdy společně.", new PostavaBody{ Postava=1, Body=-1 } },
                     { "Taak tohle je fakt trapas, horší hlášku snad neznám, nemyslím si, že se vidíme stejně.", new PostavaBody{ Postava=1, Body=-3 } },
-                    { "To je od tebe moc hezké, ty máš taky moc krásné oči!", new PostavaBody{ Postava=2, Body=3 } },
+                    { "To je od tebe moc hezké, tvá náruč mě naštěstí zachytila, takže to nebolelo!", new PostavaBody{ Postava=2, Body=3 } },
                     { "To jsou fakt otřepaný fráze… ale taky jsi mi sympatický!", new PostavaBody{ Postava=2, Body=0 } },
                     { "To jsi vyčetl v knížce otřepaných frází? Je to fakt trapný, nemyslím si, že se vidíme stejně…", new PostavaBody{ Postava=2, Body=-3 } },
                 }
